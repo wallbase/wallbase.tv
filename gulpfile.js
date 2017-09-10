@@ -15,13 +15,13 @@ gulp.task('serve', function() {
     browserSync.init({
         port: 8080,
         server: {
-            baseDir: ['src']
+            baseDir: ['./']
         }
     });
     gulp.watch('assets/**/*.less', ['lessTask']);
 
     gulp.watch("./assets/css/*.css").on('change', browserSync.reload);  
-    gulp.watch("./assets/*.html").on('change', browserSync.reload);  
+    gulp.watch("./*.html").on('change', browserSync.reload);  
     gulp.watch("./assets/js/*.js").on('change', browserSync.reload);  
 });
 
