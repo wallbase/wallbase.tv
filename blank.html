@@ -26,44 +26,52 @@
 			<a href="index.html" class="navbar-brand text-lt">
 				<i class="icon-earphones"></i>
 				<img src="assets/images/logo.png" class="hide">
-				<span class="hidden-nav-xs m-l-sm">Wallbase.tv</span>
+				<span class="hidden-nav-xs m-l-sm">Musik</span>
 			</a>
 			<a href="" class="btn btn-link visible-xs">
 				<i class="icon-settings"></i>
 			</a>
 		</div>
+		<ul class="nav navbar-nav hidden-xs">
+			<li>
+				<a href="#nav,.navbar-header" data-toggle="class:nav-xs,nav-xs" class="text-muted">
+					<i class="fa fa-indent text"></i>
+					<i class="fa fa-indent text-active"></i>
+				</a>
+			</li>
+		</ul>
 		<ul class="nav navbar-nav">
-            <li>
-                <a class="discover" href="/top"  title="发现">
-                    <i class="icon icon-disc"></i>
-                    <span> Discover</span>
-                </a>
-            </li>
-            <li>
-                <a class="latest" href="/latest">
-                    <i class="fa fa-lg fa-clock-o"></i> 
-                    <span> Latest</span>
-                </a>
-            </li>
-            <li>
-                <a class="random" href="/random">
-                    <i class="fa fa-lg fa-random"></i>
-                    <span> Random</span>
-                </a>
-            </li>
-            <li>
-                <a class="upload" href="http://alpha.wallhaven.cc/upload">
-                    <i class="fa fa-lg fa-upload"></i>
-                    <span> Upload</span>
-                </a>
-            </li>
-            <li>
-                <a href="/search" class="search">
-                    <i class="fa fa-lg fa-search"></i>
-                    <span> Search</span>
-                </a>
-            </li>
-        </ul>
+                    <li>
+                        <a class="discover" href="/top"  title="发现">
+                            <i class="icon icon-disc"></i>
+                            <span> 发现</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="latest" href="/latest">
+                            <i class="fa fa-lg fa-clock-o"></i> 
+                            <span> 最新</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="random" href="/random">
+                            <i class="fa fa-lg fa-random"></i>
+                            <span> 随机</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="upload" href="http://alpha.wallhaven.cc/upload">
+                            <i class="fa fa-lg fa-upload"></i>
+                            <span> 上传</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/search" class="search">
+                            <i class="fa fa-lg fa-search"></i>
+                            <span> 搜索</span>
+                        </a>
+                    </li>
+                </ul>
 		<form class="navbar-form navbar-left input-s-lg m-t m-l-n-xs hidden-xs" role="search">
 	        <div class="form-group">
 	          <div class="input-group">
@@ -74,6 +82,14 @@
 	          </div>
 	        </div>
       	</form>
+      	<ul class="nav navbar-nav hidden-xs">
+			<li>
+				<a href="#search" data-toggle="class:collapse" class="text-muted">
+					<i class="icon icon-equalizer text"></i>
+					<i class="icon icon-equalizer text-active"></i>
+				</a>
+			</li>
+		</ul>
       	<div class="navbar-right">
       		<ul class="nav navbar-nav m-n hidden-xs nav-user user">
       			<li class="hidden-xs">
@@ -182,48 +198,48 @@
 			</section>
 		</aside-->
 		<section id="content">
-			<div class="text-center bg-black lter animated fadeInUp" id="search">
-				<form class="navbar-form hidden-xs" role="search">
-			        <div class="btn-group" data-toggle="buttons">
-	                  <label class="btn btn-dark">
-	                    <input type="radio" name="options"><i class="fa fa-check text-active"></i> General
-	                  </label>
-	                  <label class="btn btn-dark">
-	                    <input type="radio" name="options"><i class="fa fa-check text-active"></i> Anime
-	                  </label>
-	                  <label class="btn btn-dark active">
-	                    <input type="radio" name="options"><i class="fa fa-check text-active"></i> People
-	                  </label>
-	                </div>
-	                <div class="btn-group" data-toggle="buttons">
-	                  <label class="btn btn-success">
-	                    <input type="radio" name="options"><i class="fa fa-check text-active"></i> SFW
-	                  </label>
-	                  <label class="btn btn-warning">
-	                    <input type="radio" name="options"><i class="fa fa-check text-active"></i> Sketchy
-	                  </label>
-	                  <label class="btn btn-danger active">
-	                    <input type="radio" name="options"><i class="fa fa-check text-active"></i> NSFW
-	                  </label>
-	                </div>
-			        <!-- Split button -->
-					<div class="btn-group">
-					  <button type="button" class="btn btn-dark">Action</button>
-					  <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					    <span class="caret"></span>
-					    <span class="sr-only">Toggle Dropdown</span>
-					  </button>
-					  <ul class="dropdown-menu">
-					    <li><a href="#">Action</a></li>
-					    <li><a href="#">Another action</a></li>
-					    <li><a href="#">Something else here</a></li>
-					    <li role="separator" class="divider"></li>
-					    <li><a href="#">Separated link</a></li>
-					  </ul>
-					</div>
-		      	</form>
-            </div>
 			<section class="vbox">
+				<header class="header navbar text-center bg-black lter b-b b-danger b-2x animated fadeInUp" id="search">
+					<form class="navbar-form hidden-xs" role="search">
+				        <div class="btn-group" data-toggle="buttons">
+		                  <label class="btn btn-dark">
+		                    <input type="radio" name="options"><i class="fa fa-check text-active"></i> General
+		                  </label>
+		                  <label class="btn btn-dark">
+		                    <input type="radio" name="options"><i class="fa fa-check text-active"></i> Anime
+		                  </label>
+		                  <label class="btn btn-dark active">
+		                    <input type="radio" name="options"><i class="fa fa-check text-active"></i> People
+		                  </label>
+		                </div>
+		                <div class="btn-group" data-toggle="buttons">
+		                  <label class="btn btn-success">
+		                    <input type="radio" name="options"><i class="fa fa-check text-active"></i> SFW
+		                  </label>
+		                  <label class="btn btn-warning">
+		                    <input type="radio" name="options"><i class="fa fa-check text-active"></i> Sketchy
+		                  </label>
+		                  <label class="btn btn-danger active">
+		                    <input type="radio" name="options"><i class="fa fa-check text-active"></i> NSFW
+		                  </label>
+		                </div>
+				        <!-- Split button -->
+						<div class="btn-group">
+						  <button type="button" class="btn btn-dark">Action</button>
+						  <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <span class="caret"></span>
+						    <span class="sr-only">Toggle Dropdown</span>
+						  </button>
+						  <ul class="dropdown-menu">
+						    <li><a href="#">Action</a></li>
+						    <li><a href="#">Another action</a></li>
+						    <li><a href="#">Something else here</a></li>
+						    <li role="separator" class="divider"></li>
+						    <li><a href="#">Separated link</a></li>
+						  </ul>
+						</div>
+			      	</form>
+	            </header>
 				<section class="scrollable">
 		            <div id="masonry" class="pos-rlt animated fadeInUpBig">
 		              <div class="item">
